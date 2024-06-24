@@ -1,0 +1,37 @@
+.contact__container {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .contact__form-group {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .contact__form-div {
+    flex: 1;
+  }
+  
+  .contact__form-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #0d0d0d;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+  }
+  
+  textarea.contact__form-input {
+    resize: none; /* Prevent user resizing to maintain dynamic resizing */
+  }
+  
+  @media (max-width:800px) {
+    .contct-inputs{
+      width:80vw;
+    }
+    .contact-right{
+      display: none;
+    }
+    
+  }
+  

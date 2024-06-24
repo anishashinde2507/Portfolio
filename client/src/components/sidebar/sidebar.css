@@ -1,0 +1,84 @@
+.aside{
+    position: fixed;
+    left: 0;
+    top:0;
+    background: var(--body-color);
+    border-right: 1px solid rgba(0,0,0,0.05);
+    padding: 2.5rem;
+    width: 110px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+
+
+}
+
+.nav__logo {
+    margin-bottom: 2rem; /* Adjust the value as needed */
+  }
+  
+
+
+.nav__list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    row-gap: 1rem;
+
+}
+
+
+.nav__link{
+
+    font-size: 1.5rem;
+    color: var(--title-color);
+    font-weight: var(--font-bold);
+
+}
+
+.nav__link:hover{
+    color: hsl(43,100%,68%);
+}
+
+.scroll__down{
+    position: absolute;
+    bottom: 2.5rem;
+    left: 0;
+    width: 100%;
+}
+
+.home__scroll-name{
+    font-size: var(--small-font-size);
+}
+
+.mouse{
+    border: 2px solid #454360;
+    display: block;
+    height: 1.6rem;
+    width: 1.25rem;
+    margin: auto;
+    margin-top: .75rem;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.wheel{
+    background-color: val(--title-color);
+    border-radius: 100%;
+    width: 0.25rem;
+    height: 0.25rem;
+    position: absolute;
+    top: .5rem;
+    left: 50%;
+    transform: translate(-50);
+}
+
+
+.copyright{
+    color: hsl(245,15%,65%);
+    font-size: var(--small-font-size);
+    transform: rotate(-180deg);
+    writing-mode: vertical-rl;
+}
