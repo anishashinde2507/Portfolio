@@ -1,0 +1,10 @@
+.particles-background {
+    position: fixed; /* Fixed positioning to stay in the background */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure it's behind other content */
+    pointer-events: none; /* Prevent it from blocking interactions with other elements */
+  }
+  
