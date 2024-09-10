@@ -2,6 +2,7 @@ import React from 'react'
 import "./about.css"
 import About from "../../assets/avtar1.png";
 import AboutBox from './AboutBox'
+import resume from '../../assets/Anisha_Resume.pdf';
 
 const about = () => {
   return (
@@ -12,7 +13,7 @@ const about = () => {
       <div className="about__data grid">
         <div className="about__info">
           <p className="about__description">I am third year Btech Computer Science student. I am passionate about developing Website and also exporing AI fields.</p>
-          <a href="" className="btn">Download CV</a>
+          <a href={resume} className="btn" download='resume'>Download Resume</a>
         </div>
         <div className="about__skills grid">
           <div className="skills__data">
