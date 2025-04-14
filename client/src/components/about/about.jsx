@@ -12,7 +12,7 @@ const about = () => {
       <div className="about__data grid">
         <div className="about__info">
           <p className="about__description">I am third year Btech Computer Science student. I am passionate about developing Website and also exporing AI fields.</p>
-          <a href="" className="btn">Download CV</a>
+          <a href="https://drive.google.com/file/d/1oYeFXfAo02RL2fpMGjwRYQCfNtlQfTLv/view?usp=sharing" className="btn">Download CV</a>
         </div>
         <div className="about__skills grid">
           <div className="skills__data">

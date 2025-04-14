@@ -9,16 +9,16 @@ const data = [
   {
     id: 1,
     image: Image1,
-    title: "UI/UX design",
+    title: "Frontend",
     description:
-      "We organize content and design the structure of your application.",
+      "I can organize content and design the structure of your application using React.js.",
   },
   {
     id: 2,
     image: Image2,
-    title: "Web Development",
+    title: "Backend",
     description:
-      "We create full stack web application with beautiful design . We use technology- React, Node.js, MongoDB",
+      "I create full stack web application with beautiful design - Spring Boot, Node.js",
   },
   
 ];

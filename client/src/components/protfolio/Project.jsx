@@ -18,7 +18,7 @@ const Project = () => {
     <section className="work container section" id="project">
       <h2 className="section__title">Recent Works</h2>
       <div className="work__filters">
-        {['Everything', 'Frontend', 'MERN stack'].map(category => (
+        {['Everything', 'Frontend', 'Full stack', 'Machine Learning'].map(category => (
           <span
             key={category}
             className="work__item"

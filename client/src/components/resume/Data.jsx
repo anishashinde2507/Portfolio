@@ -5,7 +5,7 @@ const Data = [
       icon: "icon-graduation",
       year: "2022 - 2026",
       title: "BE in Computer Engineering",
-      desc: "I am currently in Third year student at Dr. D.Y. Patil Institute of Technology Pune. CGPA:87.7",
+      desc: "I am currently in Third year student at Dr. D.Y. Patil Institute of Technology Pune.",
     },
     {
       id: 2,
